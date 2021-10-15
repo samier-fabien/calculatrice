@@ -12,6 +12,7 @@ import javafx.stage.Stage;
 public class App extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
+        //chemin de "resources"/classe/test.fxml
         Parent root = FXMLLoader.load(getClass().getResource("test.fxml"));
 
         Scene scene = new Scene(root);
